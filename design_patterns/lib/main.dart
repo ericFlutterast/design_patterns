@@ -1,4 +1,4 @@
-import 'package:factory_method/bin/factory_methods/factory_methode_coffe.dart';
+import 'package:design_patterns/bin/factory_methods/factory_methode_coffe.dart';
 
 import 'bin/factory_methods/factory_method_guitar.dart';
 
