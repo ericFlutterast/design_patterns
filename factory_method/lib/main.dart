@@ -1,6 +1,6 @@
-import 'package:factory_method/bin/factory_methode_coffe.dart';
+import 'package:factory_method/bin/factory_methods/factory_methode_coffe.dart';
 
-import 'bin/factory_method_guitar.dart';
+import 'bin/factory_methods/factory_method_guitar.dart';
 
 void main(List<String> arguments) {
   for (var element in GuitarType.values) {
