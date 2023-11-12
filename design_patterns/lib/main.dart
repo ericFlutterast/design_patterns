@@ -1,3 +1,4 @@
+import 'package:design_patterns/bin/abstract_fabric/abstract_fabric.dart';
 import 'package:design_patterns/bin/factory_methods/factory_methode_car.dart';
 import 'package:design_patterns/bin/factory_methods/factory_methode_coffe.dart';
 
@@ -28,4 +29,12 @@ void main(List<String> arguments) {
         'nameBrend: ${car.carBrend}, hoursForce: ${car.hoursForce} volumeOfEngine: ${car.volumeOfEngine} color: ${car.color} options: ${car.options}');
     print(_divider);
   }
+
+  _useAbstractFactory();
+}
+
+void _useAbstractFactory() {
+  var typeos = TypeOS.macOs;
+  var app = Application(GuiAbstractFactory.returnUI(typeos));
+  app.creareGui();
 }
